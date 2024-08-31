@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+sup{
+    color: green;
+}
+
+body{
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.content{
+    /* height: 550px; */
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    margin: 30px auto;
+    border-radius: 7px;
+    position: relative;
+    /* padding: 20px; */
+    
+}
+form,h1{
+    margin: 10px;
+    padding-top:4px;
+    font-weight: 800;
+    color: gray;
+}
+
+.input-contant{
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 500;
+    color: gray;
+    
+}
+
+input#sub{
+    width:89%;
+    height:25px;
+    margin: 7px;
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+
+}
+/* .fname label{ 
+    position: absolute;
+    bottom:351px;
+    left: 30px;
+}
+.fname input{
+    position: absolute;
+    bottom:316px;
+    left: 20px;
+    height: 30px;
+    width: 200px;
+    
+}
+.lname label{
+position: absolute;
+bottom:350px;
+left: 300px;
+
+}
+.lname input{
+    position: absolute;
+    bottom:315px;
+    left: 300px;
+    height: 30px;
+    width: 200px;
+    
+}
+.mail label{
+    position: absolute;
+    bottom:280px;
+    left: 20px;
+    
+    }
+   
+.mail input{
+    position: absolute;
+    bottom:248px;
+    left: 20px;
+    height: 30px;
+    width: 480px;
+}    
+#query{
+   position: absolute; 
+   bottom:210px;
+    left: 20px;
+}
+
+
+.genral input{
+    position: absolute;
+    bottom:182px;
+    left: 60px;
+}
+    
+
+
+.support input{
+    position: absolute;
+    bottom:182px;
+    left: 320px;
+}
+
+.msg label{
+    position: absolute;
+    bottom:150px;
+    /* left: px; 
+.msg textarea{
+    position: absolute;
+    bottom:170px;
+/* } */
+.fname{
+    display: inline-block;
+    /* background-color: blue; */
+    width : 40%;
+}
+.lname{
+    display: inline-block;
+    /* background-color: brown; */
+    width : 40%;
+}
+
+.mail{
+    width:85%;
+}
+
+.fname input{
+    border:1px solid grey;
+    height: 30px;
+    width:100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lname input{
+    border:1px solid grey;
+    height: 30px;
+    width:100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.mail input{
+    border:1px solid grey;
+    height: 30px;
+    width:100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.genral{
+    border:1px solid grey;
+    display: inline-block;
+     /* height: 4px;  */
+     width:208px; 
+     
+    margin-left: 15px;
+    accent-color: hsl(169,82%,27%);
+    cursor: pointer;
+}
+.support{
+    border:1px solid grey;
+    display: inline-block;
+    /* height: 4px; */
+    width:208px;
+    /* width: fit-content; */
+    margin-left: 31px;
+    accent-color: hsl(169,82%,27%);
+    cursor: pointer;
+}
+
+#query{
+    margin-left: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.msg textarea{
+    height:70px;
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.check label{
+    cursor: pointer;
+}
+.check input{
+    accent-color: hsl(169,82%,27%);
+    cursor: pointer;
+
+}
+input:hover{
+    border:1px solid hsl(169,82%,27%);
+}
+
+.genral:hover{ 
+    border:1px solid hsl(169,82%,27%);
+    background-color: hsl(148, 38%, 91%);
+ }
+
+.support:hover{
+    border:1px solid hsl(169,82%,27%);
+    background-color: hsl(148, 38%, 91%);
+}
+textarea:hover{
+    border:1px solid hsl(169,82%,27%);
+}
+
+#sub:hover{
+    background-color: hsl(169, 91%, 17%);
+}
+.genral:checked{ 
+    background-color: blueviolet;
+ }
+ .support label{
+    cursor: pointer;
+}
+.genral label{
+    cursor: pointer;
+}
+input:focus {
+    outline-color:hsl(169, 91%, 17%);
+
+}
+textarea:focus{
+    outline-color: hsl(169, 91%, 17%);
+}
